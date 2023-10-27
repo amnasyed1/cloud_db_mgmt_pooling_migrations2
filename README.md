@@ -21,3 +21,7 @@
 3. Under **`Instance info`** create an `Instance ID` and `Password`.
 4. Under **`Choose a Cloud SQL edition`** select `Enterprise` and change the preset to `Sandbox`.
 5. Under **`Customise your instance`** click on `Show configuration options` and click on `Machine configuration` and change the machine shapes to `Shared core` and `1 vCPU, 0.614 GB`. Next, click on `Connections` and click `Add a network`. Name it `Allow-All` and set the network as `0.0.0.0/0`. Then click **`Create Instance`**. 
+
+
+## Documentation and Error Handeling
+An error I got in the process was my .gitignore file not working when I pushed the Azure content onto Github. The .gitignore file pushed properly for when I was doing the GCP steps, but not for Azure. Therefore, I did everything over in a new repo and then made sure the .gitignore file was working and then pushed it into this new repo. I then deleted the original repo because it would have leaked information.  
