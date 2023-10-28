@@ -1,4 +1,4 @@
-USE amnahw;
+USE amnahwgcp;
 
 INSERT INTO patients (id, first_name, last_name, date_of_birth, gender) VALUES
 ('131313', 'Jimmy', 'Apple', '1990-10-27', 'Male'),
